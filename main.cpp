@@ -11,6 +11,7 @@ int main() {
     
     pidMotor.set_pid_gain(20.0, 0.001, 0.005, 0.0);
 
+    enc.encoder_resolution = 0.000625;
     enc.init();
     pidMotor.init();
 
