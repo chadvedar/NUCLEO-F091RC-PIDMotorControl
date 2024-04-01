@@ -1,7 +1,7 @@
 #include "mbed.h"
 #include "MotorControl.hpp"
 
-MotorCtrl motor(D4, D5, D6, D7);
+MotorCtrl motor(D4, D5, D7, D8);
 
 float setpoint = 40.0;
 
